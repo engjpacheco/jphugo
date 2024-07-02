@@ -1,30 +1,35 @@
 +++
-title = "About."
-lastmod = 2024-07-01T03:29:39-05:00
+title = "About Me"
+lastmod = 2024-07-02T05:44:44-05:00
 categories = ["emacs", "hugo"]
 draft = false
 +++
 
-## Initial header. {#initial-header-dot}
+{{< figure src="/jp.jpg" width="200px" >}}
 
-Pellentesque dapibus suscipit ligula.  Donec posuere augue in quam.  Etiam vel tortor sodales tellus ultricies commodo.  Suspendisse potenti.  Aenean in sem ac leo mollis blandit.  Donec neque quam, dignissim in, mollis nec, sagittis eu, wisi.  Phasellus lacus.  Etiam laoreet quam sed arcu.  Phasellus at dui in ligula mollis ultricies.  Integer placerat tristique nisl.  Praesent augue.  Fusce commodo.  Vestibulum convallis, lorem a tempus semper, dui dui euismod elit, vitae placerat urna tortor vitae lacus.  Nullam libero mauris, consequat quis, varius et, dictum id, arcu.  Mauris mollis tincidunt felis.  Aliquam feugiat tellus ut neque.  Nulla facilisis, risus a rhoncus fermentum, tellus tellus lacinia purus, et dictum nunc justo sit amet elit.
+Greetings! I'm Javier Pacheco, a dedicated Industrial Maintenance Engineer with a rich academic foundation from the prestigious **UTM** in **H. Matamoros Tamaulipas,Mexico**. Over the span of 12 fruitful years, I've been an integral part of the automotive industry, contributing my expertise in a multitude of critical domains.
+
+My journey began with a profound fascination for the intricate mechanisms that power manufacturing and industrial processes. At UTM, I honed my skills, diving deep into the realms of engineering, automation, and problem-solving. This foundation paved the way for my foray into the dynamic world of industrial maintenance.
+
+Within the automotive landscape, I've carved my niche in handling Programmable Logic Controllers (PLCs), robotics, and programming, orchestrating seamless operations and bolstering efficiency. My prowess extends beyond conventional boundaries—I harness the power of CAD software to craft intricate designs that harmonize innovation with practicality.
+
+Programming is not just a skill set; it's an intrinsic part of my identity. The allure of languages such as Python, C, and Lisp captivates me, compelling me to unravel their complexities and harness their capabilities to engineer groundbreaking solutions.
+
+My career is a testament to my unwavering commitment to innovation and continuous learning. Each challenge fuels my passion, propelling me to explore new horizons and revolutionize conventional practices. I thrive in environments that demand ingenuity and embrace the convergence of technology and creativity.
+
+Beyond the technical facets, I am deeply invested in collaborative endeavors, fostering a culture of knowledge exchange and mentorship. I firmly believe that sharing insights and empowering others amplifies the impact of technological advancements.
+
+See my whole information [here](/documents/cv.pdf).
 
 
-## Code. {#code-dot}
+## Where to Find Me {#where-to-find-me}
 
-```python
-import pylogix, pycomm3
-from pylogix import PLC
-from pycomm3 import LogixDriver
+-   [GitHub.](https://github.com/engjpacheco)
+-   [LinkedIn.](https://www.linkedin.com/in/jpachecom4/)
 
-# This script check what devices are connected in this node.
-with PLC() as plc:
-    devices = plc.Discover()
-    if not devices.Value:
-        print("Not connected to any NODE!!")
-        pass
-    else:
-        for device in devices.Value:
-            print(device.ProductName, device.Revision)
 
-```
+## Projects that I'm currently develop. {#projects-that-i-m-currently-develop-dot}
+
+-   [Void linux installation script.](https://github.com/engjpacheco/voidstrap)
+-   [Noobemacs, a minimal emacs configuration with evil mode.](https://github.com/engjpacheco/noobemacs)
+-   [pymetrics, a python gui app to manage maintenance logs.](https://github.com/engjpacheco/pymetrics)

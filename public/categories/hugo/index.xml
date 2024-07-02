@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Hugo on javierpacheco.xyz</title>
+    <title>Hugo on Javier Pacheco</title>
     <link>http://localhost:1313/categories/hugo/</link>
-    <description>Recent content in Hugo on javierpacheco.xyz</description>
-    <generator>Hugo</generator>
+    <description>Recent content in Hugo on Javier Pacheco</description>
+    <generator>Hugo -- 0.128.0</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 01 Jul 2024 03:29:39 -0500</lastBuildDate>
+    <copyright>Javier Pacheco</copyright>
+    <lastBuildDate>Tue, 02 Jul 2024 05:44:44 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About.</title>
+      <title>About Me</title>
       <link>http://localhost:1313/posts/about/</link>
-      <pubDate>Mon, 01 Jul 2024 03:29:39 -0500</pubDate>
+      <pubDate>Tue, 02 Jul 2024 05:44:44 -0500</pubDate>
       <guid>http://localhost:1313/posts/about/</guid>
-      <description>Initial header.&#xD;Link to heading&#xD;Pellentesque dapibus suscipit ligula. Donec posuere augue in quam. Etiam vel tortor sodales tellus ultricies commodo. Suspendisse potenti. Aenean in sem ac leo mollis blandit. Donec neque quam, dignissim in, mollis nec, sagittis eu, wisi. Phasellus lacus. Etiam laoreet quam sed arcu. Phasellus at dui in ligula mollis ultricies. Integer placerat tristique nisl. Praesent augue. Fusce commodo. Vestibulum convallis, lorem a tempus semper, dui dui euismod elit, vitae placerat urna tortor vitae lacus.</description>
+      <description>Greetings! I&amp;rsquo;m Javier Pacheco, a dedicated Industrial Maintenance Engineer with a rich academic foundation from the prestigious UTM in H. Matamoros Tamaulipas,Mexico. Over the span of 12 fruitful years, I&amp;rsquo;ve been an integral part of the automotive industry, contributing my expertise in a multitude of critical domains.
+My journey began with a profound fascination for the intricate mechanisms that power manufacturing and industrial processes. At UTM, I honed my skills, diving deep into the realms of engineering, automation, and problem-solving.</description>
     </item>
   </channel>
 </rss>

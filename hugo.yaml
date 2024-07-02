@@ -1,0 +1,116 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: Javier Pacheco
+
+title: Javier Pacheco
+copyright: "© [Javier Pacheco](https://github.com/engjpacheco)"
+paginate: 5
+theme: [PaperMod]
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+hideFooter: true
+pygmentsUseClasses: true
+# mainsections: ["Posts"]
+
+minify:
+  disableXML: false
+  # minifyOutput: true
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Posts
+          url: posts/
+          weight: 5
+        - name: Search
+          url: search/
+          weight: 10
+        - name: Tags
+          url: categories/
+          weight: 10
+
+    params:
+      homeInfoParams:
+        Title: "Javier Pacheco"
+        Content: Welcome to my personal blog.
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  description: "My personal website and blog."
+  author: Javier Pacheco
+
+  defaultTheme: dark
+  disableThemeToggle: true
+  ShowShareButtons: true
+  ShowReadingTime: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  hideFooter: true
+  ShowToc: true
+  favicon: "favicon.ico"
+
+  profileMode:
+    enabled: true
+    title: Javier Pacheco
+    subtitle: " ª{•̃̾_•̃̾}ª  Industrial Maintenance Engineer."
+    # subtitle: "Embarking on my coding journey, embracing the Linux philosophy of simplicity and open-source collaboration!"
+    imageUrl: "images/jp.jpg" # optional
+    # imageUrl: "images/logo.jpg" # optional
+    imageWidth: 160 # custom size
+    imageHeight: 160 # custom size
+    favicon: "favicon.ico"
+    # buttons:
+    #   - name: Archives
+    #     url: archives
+    #   - name: Tags
+    #     url: tags
+
+  socialIcons:
+    - name: github
+      title: "Fork your way to my GitHub and let's branch out together!"
+      url: "https://github.com/engjpacheco/"
+    - name: youtube
+      title: Hit that subscribe button and let's code and laugh our way through the tech world together!
+      url: "https://youtube.com/@jp.codepath"
+    - name: linkedin
+      title: Connect with me on LinkedIn and let's build a network of innovation!
+      url: "https://www.linkedin.com/in/jpachecom4/"
+
+  assets:
+    disableHLJS: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
+services:
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true
