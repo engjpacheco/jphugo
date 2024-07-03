@@ -2,7 +2,6 @@ baseURL: https://example.org/
 languageCode: en-us
 title: Javier Pacheco
 
-title: Javier Pacheco
 copyright: "© [Javier Pacheco](https://github.com/engjpacheco)"
 paginate: 5
 theme: [PaperMod]
@@ -31,6 +30,9 @@ languages:
       series: series
     menu:
       main:
+        - name: About Me
+          url: about
+          weight: 5
         - name: Posts
           url: posts/
           weight: 5
